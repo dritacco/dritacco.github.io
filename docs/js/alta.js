@@ -65,7 +65,7 @@ form.addEventListener('submit', e=> {
         inside = true;
     }
     // valido que la edad hasta sea mayor a la edad minima
-    if (ageToV.value > ageFromV.value) {
+    if (ageToV.value < ageFromV.value) {
         error += ' > Edad maxima menor a la edad minima';
         inside = true;
     }
